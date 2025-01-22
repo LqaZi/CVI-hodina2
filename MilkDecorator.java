@@ -10,6 +10,6 @@ public class MilkDecorator extends CoffeeDecorator {
 
     @Override
     public double getCost() {
-        return decoratedCoffee.getCost() + 0.25;
+        return decoratedCoffee.getCost() + 0.15;
     }
 }
